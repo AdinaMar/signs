@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signs</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+
+ <link rel="stylesheet" type="text/css" href="styler/style2.css"> 
+</head>
+
+<body>
+    <section>
+        <div class="container2">
+            <div class="user2 signupBx">
+
+                <div class="formBx2">
+                    <form action="register.php" method="post">
+                        <!--The action attribute specifies where to send the form-data when a form is submitted.-->
+                        <h2>Create an account</h2>
+
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                        
+          
+
+
+                        <label for="username">Username:</label>
+                        <input type="text" name="username" id="username" required>
+                        
+
+
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" required>
+                        
+
+
+                        <label for="password">Confirm password:</label>
+                        <input type="password" name="password" id="password" required>
+                     
+
+
+                        <input type="submit" value="Sign Up">
+                        <p class="signin">Already own an account? <a href="log.html" onclick="toggleForm();">Sign In</a></p>
+                
+                    </form>
+                </div>
+                <div class="imgBx2"><img src="images/astro.jpg"></div> 
+            </div>
+
+        </div>
+
+    </section>
+    <script src="javascript/app2.js"></script>
+    <!-- <script src="javascript/validation.js"></script> -->
+    
+</body>
+
+</html>

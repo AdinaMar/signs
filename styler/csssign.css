@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&family=Poppins&family=Shippori+Antique&display=swap");
+
+* {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: url("../images/star.jpg");
+  color: #d7ddee;
+}
+
+.container {
+  width: 400px; /*650*/
+  /*height: 340px;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh; /*80*/
+  background-color: #923cb5;
+  background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+
+  border-radius: 40px;
+  opacity: 0.7;
+  box-shadow: 10px 10px 15px #923cb5;
+}
+.container.active {
+  /* width: 850px;
+  height: 80vh;*/
+  width: 800px;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top {
+  height: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  line-height: 50px;
+}
+.header h2 {
+  color: white;
+}
+.forma {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.form input {
+  margin: 5%;
+  border-radius: 10px;
+  /*width: 180px;
+  height: 40px;*/
+  font-size: 150%;
+  font-weight: 70;
+}
+
+.form #sign {
+  width: 160px;
+  height: 35px;
+  opacity: 0.5;
+}
+.form #value {
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(#e66465, #9198e5);
+  font-size: 120%;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.form #value:hover {
+  background: #923cb5;
+}
+
+.ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.forma #reload {
+  width: 80px;
+  height: 40px;
+  background: linear-gradient(#e66465, #9198e5);
+  font-size: 100%;
+  font-weight: 400;
+  color: aliceblue;
+
+  margin: 3%;
+}
+
+.forma #reload:hover {
+  background: #923cb5;
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    width: 450px;
+    height: 40vh;
+  }
+
+  .container.active {
+    width: 700px;
+    height: 65vh;
+  }
+
+  .img {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  .prediction {
+    width: 100%;
+  }
+
+  .forma #reload {
+    width: 80px;
+    height: 30px;
+  }
+  /* .form #value {
+    width: 85px;
+    height: 40px;
+    font-size: 100%;
+  }*/
+}
+
+@media screen and (max-width: 580px) {
+  .container {
+    width: 350px;
+    height: 40vh;
+  }
+
+  .container.active {
+    width: 350px;
+    height: 75vh;
+  }
+
+  .img {
+    width: 90px;
+    border-radius: 50%;
+  }
+
+  .prediction {
+    width: 90%;
+  }
+
+  .forma #reload {
+    width: 80px;
+    height: 30px;
+  }
+
+  .form #value {
+    width: 85px;
+    height: 40px;
+    font-size: 100%;
+  }
+}

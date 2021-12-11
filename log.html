@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styler/style.css">
+  <!-- <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+
+        }
+
+        form input {
+            margin-bottom: 20px;
+        }
+    </style> -->  
+</head>
+<body>
+    <section>
+    <div class="container">
+        <div class="user signinBx">
+            <div class="imgBx"><img src="images/signss.jpg"></div>
+            <div class="formBx">
+            
+        <form action="login.php" method="post">
+        <h2>Sign in</h2>
+
+       
+
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" required>
+         <span></span>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+
+        <input type="submit" value="Login">
+        <p class="signup">Don't have an account? <a href="index.html" onclick="toggleForm();">Sign up</a></p>
+
+    </form>
+</div>
+</div>
+</div>
+</section>
+<script src="javascript/app.js"></script>
+<!--<script src="javascript/validation.js"></script>-->
+</body>
+</html>
